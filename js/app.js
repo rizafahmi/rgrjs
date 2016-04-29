@@ -1,7 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-import Hello from "./components/Hello"
+import Main from "./components/Main"
+import API from "./API"
 
 
-ReactDOM.render(<Hello />, document.getElementById('react-app'))
+ReactDOM.render(<Main />, document.getElementById('react-app'))
